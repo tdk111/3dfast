@@ -29,11 +29,11 @@ The current released version of 3dfast is version 1.0.
 
 Also, feel free to fork the repository:
 
-    <link>
+    https://github.com/tdk111/3dfast
 
 Or clone the repository with either of the following:
 
-    git clone <link>
+    git clone https://github.com/tdk111/3dfast
 
 See INSTALL.md for more information.
 
@@ -43,13 +43,13 @@ details.
 Keeping up-to-date with 3dfast
 ------------------------------
 
-There is a 3dfast Slack Channel here on which questions can be posted
+There is a Slack Channel here on which questions can be posted
 
-      <link>
+      https://astro-informatics.slack.com
 
 Please email the address below with questions
 
-    tom.kitching-3dfast@gmail.com
+      tom.kitching-3dfast@gmail.com
 
 
 Installation
