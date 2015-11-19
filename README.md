@@ -35,17 +35,12 @@ Or clone the repository with either of the following:
 
     git clone <link>
 
-although after doing so, if you are not a developer, you should probably
-checkout the latest release tag, rather than use the master branch:
-
-    git checkout v1
-
 See INSTALL.md for more information.
 
 The code is licensed under a BSD-style license.  See the file LICENSE for more
 details.
 
-Keeping up-to-date with GalSim
+Keeping up-to-date with 3dfast
 ------------------------------
 
 There is a 3dfast Slack Channel here on which questions can be posted
