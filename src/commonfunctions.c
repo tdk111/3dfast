@@ -212,6 +212,22 @@ double ierfc(double y)
   return (y > 1)? -x: x;
 }
 /*****************************************************/
+double R0(struct cosmo cosmo) {
+
+  /* Function return curvature scale R0 if k<>0. Units are h^{-1} Mpc. If k=0, 1 is returned*/
+
+  double k,ot,output;
+
+  if (flatcosmo==1) {
+    output = 1.0;
+  } else {
+    ot=cosmo.om+cosmo.od;
+    output = (3000.0/cosmo.h0)/sqrt(sqrt((ot-1.0)*(ot-1.0)));
+  }
+
+  return output;
+}
+/*****************************************************/
 double drdz(struct cosmo cosmo,double z) {
 
   /* Returns dr/dz (in Mpc/h) at redshift z, for a universe with                                                                                                   
@@ -232,23 +248,6 @@ double drdz(struct cosmo cosmo,double z) {
   //3000. from speed of light/100 Kms-1                                                                                                                            
 
   output = output/cosmo.h0;
-
-  return output;
-}
-/*****************************************************/
-double R0(struct cosmo cosmo) {
-
-  /* Function return curvature scale R0 if k<>0. Units are h^{-1} Mpc                                                                                              
-     If k=0, 1 is returned*/
-
-  double k,ot,output;
-
-  if (flatcosmo==1) {
-    output = 1.0;
-  } else {
-    ot=cosmo.om+cosmo.od;
-    output = (3000.0/cosmo.h0)/sqrt(sqrt((ot-1.0)*(ot-1.0)));
-  }
 
   return output;
 }
