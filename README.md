@@ -49,7 +49,7 @@ There is a Slack Channel here on which questions can be posted
 
 Please email the address below with questions
 
-      tom.kitching-3dfast@gmail.com
+      tom.kitching@gmail.com
 
 
 Installation
