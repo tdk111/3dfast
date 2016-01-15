@@ -18,7 +18,7 @@ Test/Demo
 
 To test the data vector code please download the following file 
 
-	https://goo.gl/KToz70
+https://goo.gl/KToz70
 
 place this in your data directory. Warning this is a large file of ~2Gb. This data is based on the CFHTLenS (http://cfhtlens.org) W1 field. 
 
