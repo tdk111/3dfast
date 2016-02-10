@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>3dfast by tdk111</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">3dfast</h1>
+      <h2 class="project-tagline">Code for 3D Spin-2 Power Spectrum Analysis</h2>
+      <a href="https://github.com/tdk111/3dfast" class="btn">View on GitHub</a>
+      <a href="https://github.com/tdk111/3dfast/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/tdk111/3dfast/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="3dfast-3d-cosmic-shear-" class="anchor" href="#3dfast-3d-cosmic-shear-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3Dfast: 3D Cosmic Shear </h1>
+
+<p>3Dfast is open-source software for calculating the 3D harmonic-space 
+power spectrum of a spin-2 field. This is developed within the context 
+of weak gravitational lensing calculations. </p>
+
+<p>It was used to generate the 3D cosmic shear power spectra for these papers:</p>
+
+<ul>
+<li>3D Cosmic Shear: Cosmology from CFHTLenS <a href="http://arxiv.org/abs/1401.6842">http://arxiv.org/abs/1401.6842</a>
+</li>
+</ul>
+
+<p>Details fo the code are as follows:</p>
+
+<ul>
+<li>Language: C</li>
+<li>Libraries used: CFITSIO, GSL, CLAPACK</li>
+<li>Other public code used: CAMB</li>
+<li>Architecture: The code is parallelisable and uses in-code POSIX threads</li>
+</ul>
+
+<p>The code has the following functionality, it can</p>
+
+<ul>
+<li>generate 3D cosmic shear power spectra from data</li>
+<li>create Fisher matrix predictions for cosmic shear surveys</li>
+<li>search cosmological parameter likelihood using an MCMC metropolis-hastings algorithm</li>
+</ul>
+
+<h2>
+<a id="distribution" class="anchor" href="#distribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Distribution</h2>
+
+<p>The current released version of 3dfast is version 1.0.  </p>
+
+<p>Also, feel free to fork the repository:</p>
+
+<pre><code>https://github.com/tdk111/3dfast
+</code></pre>
+
+<p>Or clone the repository with either of the following:</p>
+
+<pre><code>git clone https://github.com/tdk111/3dfast
+</code></pre>
+
+<p>See INSTALL.md for more information.</p>
+
+<p>The code is licensed under a BSD-style license.  See the file LICENSE for more
+details.</p>
+
+<h2>
+<a id="keeping-up-to-date-with-3dfast" class="anchor" href="#keeping-up-to-date-with-3dfast" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Keeping up-to-date with 3dfast</h2>
+
+<p>There is a Slack Channel here on which questions can be posted</p>
+
+<pre><code>  https://astro-informatics.slack.com
+</code></pre>
+
+<p>Please email the address below with questions</p>
+
+<pre><code>  tom.kitching@gmail.com
+</code></pre>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>For installation instructions, please see the file <code>INSTALL.md</code> in the main
+repository directory.</p>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h2>
+
+<ul>
+<li><p>Install the code as in <code>INSTALL.md</code>.</p></li>
+<li><p>Download the test data from here  </p></li>
+</ul>
+
+<h2>
+<a id="reference-documentation" class="anchor" href="#reference-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reference documentation</h2>
+
+<p>Documentaiton is currently under construction, however theory and development of the 3D cosmic shear 
+method can be found in the following papers: </p>
+
+<ul>
+<li>Kitching et al., 2015, <a href="http://arxiv.org/pdf/1408.7052">http://arxiv.org/pdf/1408.7052</a>
+</li>
+<li>Kitching et al., 2015, <a href="http://arxiv.org/pdf/1401.6842.pdf">http://arxiv.org/pdf/1401.6842.pdf</a><br>
+</li>
+<li>Merkel &amp; Schaefer (2013) <a href="http://arxiv.org/pdf/1306.6466">http://arxiv.org/pdf/1306.6466</a>
+</li>
+<li>Grassi &amp; Schaefer (2013) <a href="http://arxiv.org/pdf/1303.1024">http://arxiv.org/pdf/1303.1024</a>
+</li>
+<li>Kitching, Heavens, Miller (2010) <a href="http://arxiv.org/pdf/1007.2953.pdf">http://arxiv.org/pdf/1007.2953.pdf</a> </li>
+<li>Camera et al. (2010) <a href="http://arxiv.org/pdf/1002.4740">http://arxiv.org/pdf/1002.4740</a>
+</li>
+<li>Jimenez et al. (2010) <a href="http://arxiv.org/pdf/1003.5918">http://arxiv.org/pdf/1003.5918</a>
+</li>
+<li>Kitching, Taylor, Heavens (2008) <a href="http://arxiv.org/pdf/0801.3270">http://arxiv.org/pdf/0801.3270</a>
+</li>
+<li>Kitching et al. (2008) <a href="http://arxiv.org/pdf/0801.4565">http://arxiv.org/pdf/0801.4565</a>
+</li>
+<li>Kitching (2007) <a href="http://www-astro.physics.ox.ac.uk/%7Etdk/Thomas%20Kitching's%20Home%20Page/Thomas%20Kitching's%20Home%20Page_files/thesis.pdf">http://www-astro.physics.ox.ac.uk/~tdk/Thomas%20Kitching's%20Home%20Page/Thomas%20Kitching's%20Home%20Page_files/thesis.pdf</a>
+</li>
+<li>Kitching et al. (2007) <a href="http://arxiv.org/pdf/astro-ph/0610284.pdf">http://arxiv.org/pdf/astro-ph/0610284.pdf</a>
+</li>
+<li>Heavens et al. (2006) <a href="http://arxiv.org/pdf/astro-ph/0606568">http://arxiv.org/pdf/astro-ph/0606568</a>
+</li>
+<li>Heavens (2003) <a href="http://arxiv.org/pdf/astro-ph/0304151">http://arxiv.org/pdf/astro-ph/0304151</a>
+</li>
+</ul>
+
+<h2>
+<a id="repository-directory-structure" class="anchor" href="#repository-directory-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository directory structure</h2>
+
+<p>The repository has a number of subdirectories. Below is a guide to their
+contents:</p>
+
+<ul>
+<li>bin/ :      executables (after the compilation procedure is done).</li>
+<li>include/ :  the .h header files for the C parts of 3dfast.</li>
+<li>src/ :      the source code for the purely C++ parts of 3dfast.</li>
+<li>products/ : will contain FITS output from the data vector code, used in the theory code</li>
+<li>data/ :     contains input data in form of ascii file</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/tdk111/3dfast">3dfast</a> is maintained by <a href="https://github.com/tdk111">tdk111</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
