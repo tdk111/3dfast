@@ -66,3 +66,4 @@ Data vector weighting (if needed):
 
 	products/3dtransform_values.<name>.fits
 
+To test the installation an example output is provided here https://goo.gl/cS9QLg
