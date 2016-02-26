@@ -64,7 +64,8 @@ Getting started
 
 * Install the code as in `INSTALL.md`.
 
-* Download the test data from here <link> 
+* Download the test data from here https://goo.gl/KToz70
+* To test the installation an example output is provided here https://goo.gl/cS9QLg
 
 Reference documentation
 -----------------------
